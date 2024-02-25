@@ -16,7 +16,11 @@ The project is divided into multiple SQL queries, for easier understanding of wh
 | <p> 7. **Total Population vs Vaccinations** <p>- _Using CTE to perform Calculation on Partition by_ <p> - _Using CTE to perform Calculation on Partition by_ | Addition of new vaccine batches and total number of people vaccinated after each batch |
 | 8. **Creating Views** | Create all tables to be used in Tableau |
 
-Throughout the code, there is a commented line `WHERE location LIKE '%Mexico%'` which would allow the user to only look at numbers provided from Mexico. This line can be modified to whichever country the user is interested in knowing the information from.
+Throughout the code, the commented line:
+```SQL
+WHERE location LIKE '%Mexico%'
+```
+Would allow the user to only look at numbers provided from Mexico. This line can be modified to whichever country the user is interested in knowing the information from.
 
 The conclusion of this project comes to fruition in a public Tableau dashboard to show the recollected data.
 Link to [Tableau Dashboard](https://public.tableau.com/app/profile/fernando.herrera2734/viz/OWIDWorldCovidData/Dashboard1)
